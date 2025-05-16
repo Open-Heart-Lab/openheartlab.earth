@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-grow">{children}</main>
 
           {/* FOOTER */}
-          <footer className="bg-pink-50 text-sm text-gray-600 py-6 border-t">
+          <footer className="text-sm py-6 border-t">
             <div className="max-w-4xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
               <span>&copy; {new Date().getFullYear()} Open Heart Lab LLC</span>
               <div className="flex gap-4">
